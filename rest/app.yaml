@@ -1,0 +1,16 @@
+# [START gae_python37_cloudsql_config]
+runtime: python37
+
+handlers:
+- url: /
+  script: auto
+
+- url: /.*
+  script: auto
+
+env_variables:
+  CLOUD_SQL_USERNAME: app_pphuf
+  CLOUD_SQL_PASSWORD: app_pphuf
+  CLOUD_SQL_DATABASE_NAME: PlantationPark
+  CLOUD_SQL_CONNECTION_NAME: boxwood-destiny-249018:us-east1:plantationparkheights
+# [END gae_python37_cloudsql_config]

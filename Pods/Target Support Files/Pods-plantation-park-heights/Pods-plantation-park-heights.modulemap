@@ -1,0 +1,6 @@
+framework module Pods_plantation_park_heights {
+  umbrella header "Pods-plantation-park-heights-umbrella.h"
+
+  export *
+  module * { export * }
+}

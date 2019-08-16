@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D56145022FA1056003AC9D6 /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D56144F22FA1056003AC9D6 /* AnnouncementTableViewController.swift */; };
+		1D56146522FA66A8003AC9D6 /* CreateAnnouncementController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D56146422FA66A8003AC9D6 /* CreateAnnouncementController.swift */; };
+		1D850A8B22FB189B0023A953 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D850A8A22FB189B0023A953 /* AboutUsController.swift */; };
+		1D850A8D22FB3AF90023A953 /* SurveysController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D850A8C22FB3AF90023A953 /* SurveysController.swift */; };
+		1D850A9622FB74560023A953 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1D850A9522FB74550023A953 /* Podfile */; };
+		2E7BEF3F22FC6B4900101834 /* AnnouncementTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D56144F22FA1056003AC9D6 /* AnnouncementTableViewController.swift */; };
+		9268811422FB0D8200A97893 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9268811322FB0D8200A97893 /* Event.swift */; };
+		9289ED4B22FA10D900630C0C /* EventDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9289ED4A22FA10D900630C0C /* EventDatabase.swift */; };
+		9289ED4D22FA193500630C0C /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9289ED4C22FA193500630C0C /* EventTableViewController.swift */; };
+		9289ED4F22FA22A100630C0C /* EventCreatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9289ED4E22FA22A100630C0C /* EventCreatorViewController.swift */; };
+		92AC2A4E22F9F5E900ECE71C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AC2A4D22F9F5E900ECE71C /* AppDelegate.swift */; };
+		92AC2A5522F9F5EA00ECE71C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AC2A5422F9F5EA00ECE71C /* Assets.xcassets */; };
+		92AC2A5822F9F5EA00ECE71C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92AC2A5622F9F5EA00ECE71C /* LaunchScreen.storyboard */; };
+		9D11F7EC22FA53A4002637EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D11F7EB22FA53A4002637EE /* Default-568h@2x.png */; };
+		9D11F7EE22FA53E9002637EE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D11F7ED22FA53E9002637EE /* RegisterViewController.swift */; };
+		FDE2B6B933C76C584C9261E8 /* Pods_plantation_park_heights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 703894884E5D4E047D42548B /* Pods_plantation_park_heights.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D56144F22FA1056003AC9D6 /* AnnouncementTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewController.swift; sourceTree = "<group>"; };
+		1D56146422FA66A8003AC9D6 /* CreateAnnouncementController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAnnouncementController.swift; sourceTree = "<group>"; };
+		1D850A8A22FB189B0023A953 /* AboutUsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		1D850A8C22FB3AF90023A953 /* SurveysController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveysController.swift; sourceTree = "<group>"; };
+		1D850A9522FB74550023A953 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40B2E73F36C55BAF900439C7 /* Pods-plantation-park-heights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plantation-park-heights.debug.xcconfig"; path = "Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights.debug.xcconfig"; sourceTree = "<group>"; };
+		66167904B125BF3DAAC20BAA /* Pods-plantation-park-heights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-plantation-park-heights.release.xcconfig"; path = "Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights.release.xcconfig"; sourceTree = "<group>"; };
+		703894884E5D4E047D42548B /* Pods_plantation_park_heights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_plantation_park_heights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9268811322FB0D8200A97893 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9289ED4A22FA10D900630C0C /* EventDatabase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDatabase.swift; sourceTree = "<group>"; };
+		9289ED4C22FA193500630C0C /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = "<group>"; };
+		9289ED4E22FA22A100630C0C /* EventCreatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCreatorViewController.swift; sourceTree = "<group>"; };
+		92AC2A4A22F9F5E900ECE71C /* plantation-park-heights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plantation-park-heights.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		92AC2A4D22F9F5E900ECE71C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		92AC2A5422F9F5EA00ECE71C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		92AC2A5722F9F5EA00ECE71C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		92AC2A5922F9F5EA00ECE71C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D11F7EB22FA53A4002637EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		9D11F7ED22FA53E9002637EE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		92AC2A4722F9F5E900ECE71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE2B6B933C76C584C9261E8 /* Pods_plantation_park_heights.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		108D13CDA25422B79D5B6DD0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				703894884E5D4E047D42548B /* Pods_plantation_park_heights.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9289ED4822FA0CAD00630C0C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9289ED4A22FA10D900630C0C /* EventDatabase.swift */,
+				9268811322FB0D8200A97893 /* Event.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9289ED4922FA0CED00630C0C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D56144F22FA1056003AC9D6 /* AnnouncementTableViewController.swift */,
+				1D56146422FA66A8003AC9D6 /* CreateAnnouncementController.swift */,
+				1D850A8A22FB189B0023A953 /* AboutUsController.swift */,
+				1D850A8C22FB3AF90023A953 /* SurveysController.swift */,
+				9D11F7ED22FA53E9002637EE /* RegisterViewController.swift */,
+				9289ED4C22FA193500630C0C /* EventTableViewController.swift */,
+				9289ED4E22FA22A100630C0C /* EventCreatorViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		92AC2A4122F9F5E900ECE71C = {
+			isa = PBXGroup;
+			children = (
+				1D850A9522FB74550023A953 /* Podfile */,
+				9D11F7EB22FA53A4002637EE /* Default-568h@2x.png */,
+				92AC2A4C22F9F5E900ECE71C /* plantation-park-heights */,
+				92AC2A4B22F9F5E900ECE71C /* Products */,
+				9B756DAF445B5D69A8D4D9DC /* Pods */,
+				108D13CDA25422B79D5B6DD0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		92AC2A4B22F9F5E900ECE71C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				92AC2A4A22F9F5E900ECE71C /* plantation-park-heights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		92AC2A4C22F9F5E900ECE71C /* plantation-park-heights */ = {
+			isa = PBXGroup;
+			children = (
+				92AC2A4D22F9F5E900ECE71C /* AppDelegate.swift */,
+				9289ED4822FA0CAD00630C0C /* Model */,
+				9289ED4922FA0CED00630C0C /* View Controllers */,
+				92AC2A5422F9F5EA00ECE71C /* Assets.xcassets */,
+				92AC2A5622F9F5EA00ECE71C /* LaunchScreen.storyboard */,
+				92AC2A5922F9F5EA00ECE71C /* Info.plist */,
+			);
+			path = "plantation-park-heights";
+			sourceTree = "<group>";
+		};
+		9B756DAF445B5D69A8D4D9DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40B2E73F36C55BAF900439C7 /* Pods-plantation-park-heights.debug.xcconfig */,
+				66167904B125BF3DAAC20BAA /* Pods-plantation-park-heights.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		92AC2A4922F9F5E900ECE71C /* plantation-park-heights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92AC2A5C22F9F5EA00ECE71C /* Build configuration list for PBXNativeTarget "plantation-park-heights" */;
+			buildPhases = (
+				F8B60DF362941C2C5949F645 /* [CP] Check Pods Manifest.lock */,
+				92AC2A4622F9F5E900ECE71C /* Sources */,
+				92AC2A4722F9F5E900ECE71C /* Frameworks */,
+				92AC2A4822F9F5E900ECE71C /* Resources */,
+				2B3A6607329DDCCF4E5E0858 /* [CP] Embed Pods Frameworks */,
+				4736973BF1BB901B8025252A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "plantation-park-heights";
+			productName = "plantation park heights";
+			productReference = 92AC2A4A22F9F5E900ECE71C /* plantation-park-heights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		92AC2A4222F9F5E900ECE71C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Ortuno Marroquin, Eduardo";
+				TargetAttributes = {
+					92AC2A4922F9F5E900ECE71C = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 92AC2A4522F9F5E900ECE71C /* Build configuration list for PBXProject "plantation-park-heights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 92AC2A4122F9F5E900ECE71C;
+			productRefGroup = 92AC2A4B22F9F5E900ECE71C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				92AC2A4922F9F5E900ECE71C /* plantation-park-heights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		92AC2A4822F9F5E900ECE71C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D850A9622FB74560023A953 /* Podfile in Resources */,
+				92AC2A5822F9F5EA00ECE71C /* LaunchScreen.storyboard in Resources */,
+				9D11F7EC22FA53A4002637EE /* Default-568h@2x.png in Resources */,
+				92AC2A5522F9F5EA00ECE71C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B3A6607329DDCCF4E5E0858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4736973BF1BB901B8025252A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-plantation-park-heights/Pods-plantation-park-heights-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8B60DF362941C2C5949F645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-plantation-park-heights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		92AC2A4622F9F5E900ECE71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E7BEF3F22FC6B4900101834 /* AnnouncementTableViewController.swift in Sources */,
+				1D850A8B22FB189B0023A953 /* AboutUsController.swift in Sources */,
+				1D56146522FA66A8003AC9D6 /* CreateAnnouncementController.swift in Sources */,
+				1D56145022FA1056003AC9D6 /* AnnouncementTableViewController.swift in Sources */,
+				92AC2A4E22F9F5E900ECE71C /* AppDelegate.swift in Sources */,
+				1D850A8D22FB3AF90023A953 /* SurveysController.swift in Sources */,
+				9289ED4F22FA22A100630C0C /* EventCreatorViewController.swift in Sources */,
+				9D11F7EE22FA53E9002637EE /* RegisterViewController.swift in Sources */,
+				9289ED4B22FA10D900630C0C /* EventDatabase.swift in Sources */,
+				92AC2A4E22F9F5E900ECE71C /* AppDelegate.swift in Sources */,
+				9268811422FB0D8200A97893 /* Event.swift in Sources */,
+				9289ED4D22FA193500630C0C /* EventTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		92AC2A5622F9F5EA00ECE71C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				92AC2A5722F9F5EA00ECE71C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		92AC2A5A22F9F5EA00ECE71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		92AC2A5B22F9F5EA00ECE71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		92AC2A5D22F9F5EA00ECE71C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B2E73F36C55BAF900439C7 /* Pods-plantation-park-heights.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/plantation-park-heights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "opportunity-hack-2019.plantation-park-heights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		92AC2A5E22F9F5EA00ECE71C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66167904B125BF3DAAC20BAA /* Pods-plantation-park-heights.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/plantation-park-heights/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "opportunity-hack-2019.plantation-park-heights";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		92AC2A4522F9F5E900ECE71C /* Build configuration list for PBXProject "plantation-park-heights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AC2A5A22F9F5EA00ECE71C /* Debug */,
+				92AC2A5B22F9F5EA00ECE71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92AC2A5C22F9F5EA00ECE71C /* Build configuration list for PBXNativeTarget "plantation-park-heights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92AC2A5D22F9F5EA00ECE71C /* Debug */,
+				92AC2A5E22F9F5EA00ECE71C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 92AC2A4222F9F5E900ECE71C /* Project object */;
+}
